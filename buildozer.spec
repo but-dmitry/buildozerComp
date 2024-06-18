@@ -42,7 +42,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy,Pillow,numpy==1.26.0,opencv-python,socket
+requirements = python3,kivy,Pillow,https://github.com/numpy/numpy/archive/refs/heads/maintenance/1.26.x.zip,opencv-python,socket
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
