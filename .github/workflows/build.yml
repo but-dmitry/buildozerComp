@@ -13,7 +13,7 @@ jobs:
       - name: InstallSHit
         id: inst
         run: |
-          apt install libltdl-dev
+          sudo apt install libltdl-dev
       #used to cache dependencies with a timeout
       - name: Get Date
         id: get-date
